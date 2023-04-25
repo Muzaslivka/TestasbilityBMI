@@ -2,7 +2,8 @@ public class BmiService {
 
     public double calculate(double height, double weight) {
         double bmiIndex;
-        bmiIndex = weight / (height * height);
+        int a = 2;
+        bmiIndex = weight / Math.pow(height, a);
         return bmiIndex;
     }
 }
